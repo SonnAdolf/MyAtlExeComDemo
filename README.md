@@ -1,0 +1,2 @@
+# MyAtlExeComDemo
+创建最简单的exe形式COM组件并在MFC程序调用的demo
