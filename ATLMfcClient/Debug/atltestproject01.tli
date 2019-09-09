@@ -1,0 +1,19 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 10.00.30319.01 (94dc05ff).
+//
+// d:\workspace\atltestproject01\atlmfcclient\debug\atltestproject01.tli
+//
+// Wrapper implementations for Win32 type library D:\\Workspace\\ATLTestProject01\\x64\\Release\\ATLTestProject01.exe
+// compiler-generated file created 09/09/19 at 13:19:56 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IATLTest wrapper method implementations
+//
+
+inline SCODE IATLTest::ATLTestFunc0 ( short num1, short num2 ) {
+    SCODE _result = 0;
+    HRESULT _hr = raw_ATLTestFunc0(num1, num2, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}

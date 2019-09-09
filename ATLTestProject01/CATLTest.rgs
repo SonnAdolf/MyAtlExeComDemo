@@ -1,0 +1,26 @@
+HKCR
+{
+	ATLTest.math.1 = s 'CATLTest Class'
+	{
+		CLSID = s '{F825085F-F245-4185-B9C2-9D7305D98527}'
+	}
+	ATLTest.math = s 'CATLTest Class'
+	{		
+		CurVer = s 'ATLTest.math.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {F825085F-F245-4185-B9C2-9D7305D98527} = s 'CATLTest Class'
+		{
+			ProgID = s 'ATLTest.math.1'
+			VersionIndependentProgID = s 'ATLTest.math'
+			ForceRemove Programmable
+			LocalServer32 = s '%MODULE%'
+			{
+				val ServerExecutable = s '%MODULE_RAW%'
+			}
+			TypeLib = s '{204F0746-5109-4F6E-AC82-0966E78ACC88}'
+			Version = s '1.0'
+		}
+	}
+}

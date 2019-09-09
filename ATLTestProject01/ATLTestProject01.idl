@@ -1,0 +1,36 @@
+// ATLTestProject01.idl : ATLTestProject01 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(ATLTestProject01.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(7E184EA2-0B28-473E-AFC4-D7230A2F69F4),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IATLTest : IDispatch{
+	[id(1)] HRESULT ATLTestFunc0([in] SHORT num1, [in] SHORT num2, [out,retval] SCODE* pRetNum);
+};
+[
+	uuid(204F0746-5109-4F6E-AC82-0966E78ACC88),
+	version(1.0),
+]
+library ATLTestProject01Lib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(F825085F-F245-4185-B9C2-9D7305D98527)		
+	]
+	coclass CATLTest
+	{
+		[default] interface IATLTest;
+	};
+};
+
+import "shobjidl.idl";

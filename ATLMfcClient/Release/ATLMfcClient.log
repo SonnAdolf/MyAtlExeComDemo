@@ -1,0 +1,34 @@
+﻿生成启动时间为 2019/9/9 12:27:58。
+     1>项目“D:\Workspace\ATLTestProject01\ATLMfcClient\ATLMfcClient.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\ATLMfcClient.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         d:\Softwares\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ATLMfcClient.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ATLMfcClient.cpp ATLMfcClientDlg.cpp
+         ATLMfcClient.cpp
+         ATLMfcClientDlg.cpp
+     1>d:\workspace\atltestproject01\atlmfcclient\ATLTest.h(6): warning C4099: “CATLTest”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\workspace\atltestproject01\atlmfcclient\release\atltestproject01.tlh(19) : 参见“CATLTest”的声明
+     1>ATLMfcClientDlg.cpp(111): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Softwares\Microsoft Visual Studio 10.0\VC\include\wchar.h(866) : 参见“_itow”的声明
+     1>ATLMfcClientDlg.cpp(108): warning C4101: “iRet”: 未引用的局部变量
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\ATLMfcClient.res" ATLMfcClient.rc 
+       Link:
+         d:\Softwares\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\ATLTestProject01\Release\ATLMfcClient.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\ATLMfcClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Workspace\ATLTestProject01\Release\ATLMfcClient.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Workspace\ATLTestProject01\Release\ATLMfcClient.lib" /MACHINE:X86 Release\ATLMfcClient.res
+         Release\ATLMfcClient.obj
+         Release\ATLMfcClientDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         ATLMfcClient.vcxproj -> D:\Workspace\ATLTestProject01\Release\ATLMfcClient.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Workspace\ATLTestProject01\Release\ATLMfcClient.exe;#1" /manifest Release\ATLMfcClient.exe.intermediate.manifest "d:\Softwares\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\ATLMfcClient.unsuccessfulbuild”。
+         正在对“Release\ATLMfcClient.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Workspace\ATLTestProject01\ATLMfcClient\ATLMfcClient.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.79

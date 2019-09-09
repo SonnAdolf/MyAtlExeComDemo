@@ -1,0 +1,46 @@
+﻿生成启动时间为 2019/9/9 13:19:53。
+     1>项目“D:\Workspace\ATLTestProject01\ATLMfcClient\ATLMfcClient.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\Workspace\ATLTestProject01\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\ATLMfcClient.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Softwares\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ATLMfcClient.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Softwares\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ATLMfcClient.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ATLMfcClient.cpp ATLMfcClientDlg.cpp
+         ATLMfcClientDlg.cpp
+     1>d:\workspace\atltestproject01\atlmfcclient\atltest.h(6): warning C4099: “CATLTest”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\workspace\atltestproject01\atlmfcclient\debug\atltestproject01.tlh(19) : 参见“CATLTest”的声明
+     1>d:\workspace\atltestproject01\atlmfcclient\atlmfcclientdlg.cpp(94): warning C4244: “=”: 从“SCODE”转换到“short”，可能丢失数据
+     1>d:\workspace\atltestproject01\atlmfcclient\atlmfcclientdlg.cpp(96): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\softwares\microsoft visual studio 10.0\vc\include\wchar.h(866) : 参见“_itow”的声明
+         ATLMfcClient.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0804" /IDebug\ /nologo /fo"Debug\ATLMfcClient.res" ATLMfcClient.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ATLMfcClient.exe.embed.manifest.res" Debug\ATLMfcClient_manifest.rc 
+       Link:
+         d:\Softwares\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\ATLTestProject01\Debug\ATLMfcClient.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\ATLMfcClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Workspace\ATLTestProject01\Debug\ATLMfcClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Workspace\ATLTestProject01\Debug\ATLMfcClient.lib" /MACHINE:X86 Debug\ATLMfcClient.res
+         Debug\ATLMfcClient.exe.embed.manifest.res
+         Debug\ATLMfcClient.obj
+         Debug\ATLMfcClientDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ATLMfcClient.exe.embed.manifest" /manifest Debug\ATLMfcClient.exe.intermediate.manifest "d:\Softwares\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ATLMfcClient.exe.embed.manifest.res" Debug\ATLMfcClient_manifest.rc 
+       LinkEmbedManifest:
+         d:\Softwares\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\ATLTestProject01\Debug\ATLMfcClient.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\ATLMfcClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Workspace\ATLTestProject01\Debug\ATLMfcClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Workspace\ATLTestProject01\Debug\ATLMfcClient.lib" /MACHINE:X86 Debug\ATLMfcClient.res
+         Debug\ATLMfcClient.exe.embed.manifest.res
+         Debug\ATLMfcClient.obj
+         Debug\ATLMfcClientDlg.obj
+         Debug\stdafx.obj
+         ATLMfcClient.vcxproj -> D:\Workspace\ATLTestProject01\Debug\ATLMfcClient.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ATLMfcClient.unsuccessfulbuild”。
+         正在对“Debug\ATLMfcClient.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Workspace\ATLTestProject01\ATLMfcClient\ATLMfcClient.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.80

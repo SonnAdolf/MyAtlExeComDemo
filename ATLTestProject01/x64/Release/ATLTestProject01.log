@@ -1,0 +1,87 @@
+﻿生成启动时间为 2019/9/9 13:22:36。
+     1>项目“D:\Workspace\ATLTestProject01\ATLTestProject01\ATLTestProject01.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Release\ATLTestProject01.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“x64\Release\ATLTestProject01.unsuccessfulbuild”执行 Touch 任务。
+       Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /D NDEBUG /W1 /nologo /char signed /env win32 /Oicf /h "ATLTestProject01_i.h" /iid "ATLTestProject01_i.c" /proxy "ATLTestProject01_p.c" /tlb "x64\Release\ATLTestProject01.tlb" ATLTestProject01.idl 
+         Processing .\ATLTestProject01.idl
+         ATLTestProject01.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ocidl.idl
+         ocidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oleidl.idl
+         oleidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\servprov.idl
+         servprov.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\urlmon.idl
+         urlmon.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\msxml.idl
+         msxml.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\shobjidl.idl
+         shobjidl.idl
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\shobjidl.idl(609): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\docobj.idl
+         docobj.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\shtypes.idl
+         shtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\comcat.idl
+         comcat.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\propidl.idl
+         propidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\prsht.idl
+         prsht.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\propsys.idl
+         propsys.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\StructuredQueryCondition.idl
+         StructuredQueryCondition.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ObjectArray.idl
+         ObjectArray.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         oaidl.acf
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ocidl.acf
+         ocidl.acf
+       ClCompile:
+         d:\Softwares\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _ATL_DLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\ATLTestProject01.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Softwares\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _ATL_DLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\ATLTestProject01.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ATLTest.cpp ATLTestProject01.cpp
+         ATLTest.cpp
+         ATLTestProject01.cpp
+         Generating Code...
+         d:\Softwares\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _ATL_DLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TC /errorReport:prompt ATLTestProject01_i.c
+         ATLTestProject01_i.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /Ix64\Release\ /nologo /fo"x64\Release\ATLTestProject01.res" ATLTestProject01.rc 
+       Link:
+         d:\Softwares\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\ATLTestProject01\x64\Release\ATLTestProject01.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\ATLTestProject01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Workspace\ATLTestProject01\x64\Release\ATLTestProject01.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 x64\Release\ATLTestProject01.res
+         x64\Release\ATLTest.obj
+         x64\Release\ATLTestProject01.obj
+         x64\Release\ATLTestProject01_i.obj
+         x64\Release\stdafx.obj
+         ATLTestProject01.vcxproj -> D:\Workspace\ATLTestProject01\x64\Release\ATLTestProject01.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Workspace\ATLTestProject01\x64\Release\ATLTestProject01.exe;#1" /manifest x64\Release\ATLTestProject01.exe.intermediate.manifest
+       PostBuildEvent:
+         Description: 执行注册
+         "D:\Workspace\ATLTestProject01\x64\Release\ATLTestProject01.exe" /RegServer
+         :VCEnd
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\ATLTestProject01.unsuccessfulbuild”。
+         正在对“x64\Release\ATLTestProject01.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Workspace\ATLTestProject01\ATLTestProject01\ATLTestProject01.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.82

@@ -1,0 +1,64 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 10.00.30319.01 (dc1e2533).
+//
+// d:\workspace\atltestproject01\atlmfcclient\x64\release\atltestproject01.tlh
+//
+// C++ source equivalent of Win32 type library D:\\Workspace\\ATLTestProject01\\x64\\Release\\ATLTestProject01.exe
+// compiler-generated file created 09/09/19 at 13:09:38 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("204f0746-5109-4f6e-ac82-0966e78acc88"))
+/* LIBID */ __ATLTestProject01Lib;
+struct /* coclass */ CATLTest;
+struct __declspec(uuid("7e184ea2-0b28-473e-afc4-d7230a2f69f4"))
+/* dual interface */ IATLTest;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IATLTest, __uuidof(IATLTest));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("f825085f-f245-4185-b9c2-9d7305d98527"))
+CATLTest;
+    // [ default ] interface IATLTest
+
+struct __declspec(uuid("7e184ea2-0b28-473e-afc4-d7230a2f69f4"))
+IATLTest : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    SCODE ATLTestFunc0 (
+        short num1,
+        short num2 );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_ATLTestFunc0 (
+        /*[in]*/ short num1,
+        /*[in]*/ short num2,
+        /*[out,retval]*/ SCODE * pRetNum ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\workspace\atltestproject01\atlmfcclient\x64\release\atltestproject01.tli"
+
+#pragma pack(pop)
